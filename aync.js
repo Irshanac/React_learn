@@ -3,7 +3,7 @@ function f1(){
     return new Promise((resolve,reject)=>
     {
         if(check)
-            resolve("hello")
+            resolve("hello dfghjkl")
         else
             reject("err")
     })
@@ -14,7 +14,13 @@ p1.then((v)=>console.log(v))
 
 
 async function checking() {
-    return "hello world"
+    return "hello world!!!"
 }
 const p2=checking()
-p2.then((a)=>console.log(a))
+p2.then((a)=>console.dir(a))
+
+
+
+console.log(p2);
+
+console.log("qwertyuio12345678");
